@@ -49,7 +49,7 @@ namespace ManejoPresupuesto.Controllers
 
             if( yaExisteTipoCuenta)
             {
-                return Json($"El nombre {nombre} ya existe");
+                return Json($@"El nombre {nombre} ya existe");
             }
             return Json(true);
         }
